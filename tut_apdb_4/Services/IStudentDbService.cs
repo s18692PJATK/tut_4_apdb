@@ -7,12 +7,12 @@ using tut_apdb_4.Models.Entrollments;
 
 namespace tut_apdb_4.Services
 {
-    interface IStudentDbService
+    public interface IStudentDbService
 
     {
-        public IActionResult promote(PromoteRequest request);
-        public IActionResult AddStudent([FromBody] Models.Entrollments.Student student);
-        public IActionResult GetStudents(string orderBy);
-        public IActionResult getSemesters(string id);
+        public Enrollment promote(PromoteRequest request);
+        public Enrollment AddStudent( Student student);
+        public List<Student> GetStudents(string orderBy);
+        public List<string> getSemesters(string id);
     }
 }
