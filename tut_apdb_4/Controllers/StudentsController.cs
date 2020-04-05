@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Data;
 using System.Data.SqlClient;
 using Microsoft.AspNetCore.Mvc;
 using tut_apdb4.Models;
