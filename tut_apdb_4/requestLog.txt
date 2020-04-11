@@ -1,0 +1,15 @@
+Method = GET
+Endpoint= /weatherforecast
+Body= dfasdf
+QueryString= 
+g= 
+er.IIS.Core.HttpRequestStream
+QueryString= 
+Method = GET
+Endpoint= /weatherforecast
+Body= dfasdf
+QueryString= 
+Method = GET
+Endpoint= /weatherforecast
+Body= dfasdf
+QueryString= 
